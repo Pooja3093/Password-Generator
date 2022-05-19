@@ -1,5 +1,5 @@
-# JSWK3CH1PP
-## Week 2 JavaScript challenge
+## JSWK3CH1PP
+# Week 2 JavaScript challenge
 ## Password-Generator
 
 This code was developed as an assignment for Module 3 Javascript.
@@ -49,25 +49,21 @@ As a bonus, the user can click on copy button to copy the password to their clip
 ### Showcase:
 
 Event listener (onclick)
+
 Alert, Prompt and Confirm
+
 ParseInt()
+
 Math.random() and Math.floor()
+
 Responsive page
 
 
 ### Links:
 GitHub Repository
+
 Deployed GitHub IO
+
 Full Demo Video
 
 ### Screenshot of application:
-
-This project has media Queries for:
-max-width: 980px
-Adjusts body and container width
-max-width: 786px
-Adjusts body and container width
-Adjusts buttons
-max-width: 640px
-Adjusts body and container width
-Adjusts buttons to be centered and stacked

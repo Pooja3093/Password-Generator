@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 html,
@@ -60,7 +60,7 @@ header {
 
 .card-footer::before {
   content: " ";
-  display: block;
+  display: flex;
   width: 100%;
   background: #e7e9eb;
   height: 2px;
@@ -91,6 +91,12 @@ header {
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
+}
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: translateY(-0.25em);
 }
 
 .float-right {
@@ -133,5 +139,8 @@ button[disabled] {
 @media (max-width: 500px) {
   .btn {
     font-size: 0.8rem;
+  }
+  .card-footer::before{
+    flex-direction: column;
   }
 }

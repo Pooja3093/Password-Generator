@@ -14,8 +14,57 @@ var len;
 var charSet;
 var char;
 
-// Assignment Code
+
+// Query selectors
 var generateBtn = document.querySelector("#generate");
+var copyBtn = document.querySelector("#copy");
+var resetBtn = document.querySelector("#reset");
+var passwordText = document.querySelector("#password");
+
+
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", writePassword);
+copyBtn.addEventListener("click", copypwd);
+resetBtn.addEventListener("click", resetpwd);
+
+
+
+
+// Function to Write password to the #password input
+function writePassword() {
+  var password = generatePassword();
+  passwordText.value = password;
+}
+
+
+
+// Function to  Copy password to clipboard
+function copypwd() {
+  /* Get the text field */
+  var copyText = document.getElementById("password");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  navigator.clipboard.writeText(copyText.value);
+  
+  /* Alert the copied text */
+  alert("Password copied.");
+}
+
+
+
+// Function to  Reset textarea
+function resetpwd(){
+  var resetText = document.getElementById("password");
+  resetText.value = "";
+  return;
+}
+
+
 
 // Function to generate password
 
@@ -61,15 +110,3 @@ function generatePassword(){
     }
   }
 }
-
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  passwordText.value = password;
-
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);

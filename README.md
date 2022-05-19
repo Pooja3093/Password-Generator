@@ -64,6 +64,7 @@ Responsive page
 
 [Deployed Application](https://pooja3093.github.io/JSWK3CH1PP/)
 
-Full Demo Video
+[Full Demo Video](https://drive.google.com/file/d/1Npeo7ZyczSLCyJyhFtFYwno4HOzZJs2S/view)
 
 ### Screenshot of application:
+![screen_shot]

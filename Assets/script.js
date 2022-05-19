@@ -61,6 +61,7 @@ function copypwd() {
 function resetpwd(){
   var resetText = document.getElementById("password");
   resetText.value = "";
+  pwd = "";
   return;
 }
 
@@ -70,7 +71,7 @@ function resetpwd(){
 
 function generatePassword(){
   var str = prompt("Please enter the length required. /n The password length should be between 8 to 128 characters.");
-  len = parseInt(str);
+  len = parseInt(str,10);
   if (len < 8 || len > 128) {
     alert("The password length must be between 8 and 128 characters.");
     return;

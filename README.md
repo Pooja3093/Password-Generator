@@ -67,4 +67,4 @@ Responsive page
 [Full Demo Video](https://drive.google.com/file/d/1Npeo7ZyczSLCyJyhFtFYwno4HOzZJs2S/view)
 
 ### Screenshot of application:
-![screen_shot]
+![screen_shot](./Assets/Assets/Password%20Generator.jpg)

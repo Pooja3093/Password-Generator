@@ -60,9 +60,9 @@ Responsive page
 
 
 ### Links:
-GitHub Repository
+[GitHub Repository]()
 
-Deployed GitHub IO
+[Deployed Application](https://pooja3093.github.io/JSWK3CH1PP/)
 
 Full Demo Video
 

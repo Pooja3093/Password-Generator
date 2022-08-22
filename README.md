@@ -1,6 +1,4 @@
-## JSWK3CH1PP
-# Week 2 JavaScript challenge
-## Password-Generator
+# Password-Generator
 
 This code was developed as an assignment for Module 3 Javascript.
 
